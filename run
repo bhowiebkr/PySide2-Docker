@@ -1,0 +1,7 @@
+#!/bin/bash
+sudo docker run \
+    --mount type=bind,src="$(pwd)/app",target=/app \
+    --env DISPLAY=$DISPLAY \
+	--volume="/tmp/.X11-unix:/tmp/.X11-unix" \
+    pyside2_docker \
+    python3 main.py
