@@ -1,5 +1,5 @@
 # PySide2-Docker
-This is a simple Hello World example using Docker with PySide2
+This is a simple Hello World GUI running inside a container with PySide2
 
 ![hello_gui](https://github.com/bhowiebkr/PySide2-Docker/blob/master/images/hello.png)
 
